@@ -1,0 +1,51 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    z-index: 4;
+    background-color: rgba(7, 22, 193, 0.498);
+  }
+  
+
+  
+  .navbar__links > li {
+    cursor: pointer;
+  }
+  ul{
+    list-style-type: none;
+  }
+  li{
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+  }
+  /* Style the tooltip container */
+  .over{
+    top: 3rem;
+    position: absolute;
+    z-index: 1;
+    width: 5rem;
+    left: 92%;
+    color: white!important;
+    background-color:  rgba(7, 22, 193, 0.498);
+}
+.hide{
+  display: none;
+}
+#drop ul Link {
+  text-decoration: none;
+  font-size: medium; 
+  color: white;
+}
+.no-underline{
+  text-decoration: none;
+  color: #fff;
+  padding: 1rem 0;
+}
+@media screen and (max-width: 600px)  {
+  .over{
+    left: 78%;
+  }
+}

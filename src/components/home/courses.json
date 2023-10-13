@@ -1,0 +1,33 @@
+[
+    {
+      "id": 1,
+      "link": "/assets/image/alexandre-debieve-FO7JIlwjOtU-unsplash.jpg",
+      "goTo":"/aboutCourse",
+      "nameofsub": "Digital Logic"
+    },
+    {
+      "id": 2,
+      "link": "/assets/image/ball-g7c525b8b9_1280.jpg",
+      "goTo":"/aboutCourse",
+      "nameofsub": "Machine Learning"
+    },
+    {
+      "id": 3,
+      "link": "/assets/image/geometry-g25b90509c_1280.jpg",
+      "goTo":"/aboutCourse",
+      "nameofsub": "Web Development"
+    },
+    {
+      "id": 4,
+      "link": "/assets/image/onur-binay-wi3xBnWZlvQ-unsplash.jpg",
+      "goTo":"/aboutCourse",
+      "nameofsub": "Data Science"
+    },
+    {
+        "id": 5,
+        "link": "/assets/image/shahadat-rahman-O2MdroNurVw-unsplash.jpg",
+        "goTo":"/aboutCourse",
+        "nameofsub": "Data Science"
+      }
+  ]
+  

@@ -1,0 +1,27 @@
+.tooltipL {
+  position: relative; /* Required for positioning the tooltip */
+  display: inline-block; /* Display inline with the content */
+  cursor: pointer; /* Show pointer cursor on hover */
+}
+
+/* Style the tooltip content */
+.tooltipL::after {
+  content: "LogOut"; /* Add the tooltip text */
+  visibility: hidden; /* Hide the tooltip by default */
+  position: absolute;
+  background-color: #4e4e4e; /* Tooltip background color */
+  color: #fff; /* Tooltip text color */
+  padding: 5px 10px; /* Padding for the tooltip */
+  border-radius: 5px; /* Rounded corners */
+  z-index: 1; /* Ensure tooltip appears above content */
+  bottom: -125%; /* Position the tooltip above the button */
+  left: 50%; /* Center the tooltip horizontally */
+  transform: translateX(-50%); /* Center the tooltip horizontally */
+  transition: opacity 0.3s; /* Add a smooth fade-in transition */
+}
+
+/* Show the tooltip on hover */
+.tooltipL:hover::after {
+  visibility: visible;
+  opacity: 1;
+}
