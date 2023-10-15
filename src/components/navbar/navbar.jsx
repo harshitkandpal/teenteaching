@@ -13,7 +13,7 @@ function Navbar() {
   return (
     <div className="navbar navbar-expand-lg border-bottom px-1">
       <span className="navbar-brand">
-        <Link to="/LoginForm" className="no-underline">
+        <Link to="/" className="no-underline">
           <img src="./logo.jpg" width={48} height={48} alt="Logo" />
         </Link>
       </span>
