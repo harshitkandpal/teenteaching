@@ -60,25 +60,3 @@ function Navbar() {
 
 export default Navbar;
 
-{/* <nav class="navbar navbar-expand-lg bg-dark border-bottom border-bottom-dark p-0" data-bs-theme="dark">
-<div class="container-fluid ">
-    <a class="navbar-brand" href="#">
-      <img src="media\icons\Studyhive.png" width="56px" style="border-radius: 30%;">
-    </a>
-    
-    <ul class="navbar-nav justify-content-end ">
-      <li class="nav-item  ">
-        <a class="nav-link"><i class="fas fa-user-circle fa-2x" id="user-logo"></i></a>
-      </li>
-    </ul>
-</div>
-</nav>
-
-<div class="over hide" id="drop">
-<ul style="list-style: none;">
-<li><a href="profile.html">Proflie</a></li>
-<li><a href="home.html">My course</a></li>
-<li><a href="index.html">sign out</a></li>
-<li><a href="feed.html">feedback & report</a></li>
-</ul>
-</div> */}

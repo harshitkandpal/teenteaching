@@ -89,9 +89,9 @@ function LoginForm() {
                 Teacher
               </label>
             </div>
-            <a href="" id="forget">
+            <p  id="forget">
               Forget password?
-            </a>
+            </p>
             <div className="row py-3">
               <div className="col text-left">
                 <button type="button" className="btn btn-primary" id="logIn" onClick={handleLogin}>
